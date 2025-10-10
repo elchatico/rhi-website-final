@@ -3,16 +3,16 @@ import AnimatedSection from '../components/AnimatedSection';
 import { XIcon } from '../components/icons';
 
 const images = [
-  { src: '/components/Images/image1.jpg', caption: 'Students practicing CPR on manikins.' },
-  { src: 'components/Images/image2.jpg', caption: 'An instructor demonstrates proper bandaging in a workplace training demo.' },
-  { src: 'components/Images/image3.jpg', caption: 'A representative from a CSR sponsor speaks at an event.' },
-  { src: 'components/Images/image4.jpg', caption: 'Students engaged in an interactive first aid learning session.' },
-  { src: 'components/Images/image5.jpg', caption: 'Happy students on graduation day for the RH Kids program.' },
-  { src: 'components/Images/image6.jpg', caption: 'Corporate team building exercise focused on first aid.' },
-  { src: 'components/Images/image7.jpg', caption: 'An employee learning to use an automated external defibrillator (AED).' },
-  { src: 'components/Images/image8.jpg', caption: 'The RHI team at a community outreach program event.' },
-  { src: 'components/Images/image9.jpg', caption: 'Students practicing the Heimlich maneuver on each other.' },
-  { src: 'components/Images/image10.jpg', caption: 'A group photo of a successful RH Pro workplace training session.' },
+  { src: '/images/image1.jpg', caption: 'Students practicing CPR on manikins.' },
+  { src: '/images/image2.jpg', caption: 'An instructor demonstrates proper bandaging in a workplace training demo.' },
+  { src: '/images/image3.jpg', caption: 'A representative from a CSR sponsor speaks at an event.' },
+  { src: '/images/image4.jpg', caption: 'Students engaged in an interactive first aid learning session.' },
+  { src: '/images/image5.jpg', caption: 'Happy students on graduation day for the RH Kids program.' },
+  { src: '/images/image6.jpg', caption: 'Corporate team building exercise focused on first aid.' },
+  { src: '/images/image7.jpg', caption: 'An employee learning to use an automated external defibrillator (AED).' },
+  { src: '/images/image8.jpg', caption: 'The RHI team at a community outreach program event.' },
+  { src: '/images/image9.jpg', caption: 'Students practicing the Heimlich maneuver on each other.' },
+  { src: '/images/image10.jpg', caption: 'A group photo of a successful RH Pro workplace training session.' },
 ];
 
 const PageHeader: React.FC<{ title: string; subtitle: string }> = ({ title, subtitle }) => (
