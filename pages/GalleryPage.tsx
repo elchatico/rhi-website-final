@@ -3,7 +3,7 @@ import AnimatedSection from '../components/AnimatedSection';
 import { XIcon } from '../components/icons';
 
 const images = [
-  { src: 'components/Images/image1.jpg', caption: 'Students practicing CPR on manikins.' },
+  { src: './components/Images/image1.jpg', caption: 'Students practicing CPR on manikins.' },
   { src: 'components/Images/image2.jpg', caption: 'An instructor demonstrates proper bandaging in a workplace training demo.' },
   { src: 'components/Images/image3.jpg', caption: 'A representative from a CSR sponsor speaks at an event.' },
   { src: 'components/Images/image4.jpg', caption: 'Students engaged in an interactive first aid learning session.' },
