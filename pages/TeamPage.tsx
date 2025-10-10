@@ -5,19 +5,19 @@ const teamMembers = [
   {
     name: 'Grace Owuor',
     role: 'Founder & Executive Director',
-    imageUrl: 'components/Images/1.png',
+    imageUrl: '../components/Images/1.png',
     bio: 'Grace founded RHI with a passion for community safety and empowerment. His vision drives our mission forward every day.'
   },
   {
     name: 'George Roberts',
     role: 'Co-Founder & Program Coordinator',
-    imageUrl: 'components/Images/21.jpeg',
+    imageUrl: '../components/Images/21.jpeg',
     bio: 'Manages our school and corporate partnerships, ensuring a smooth and impactful experience for all.'
   },
   {
     name: 'Lyndah Nyangasi',
     role: 'Operations Manager',
-    imageUrl: 'components/Images/3.jpeg',
+    imageUrl: '../components/Images/3.jpeg',
     bio: 'Keeps our programs running smoothly and efficiently, handling logistics and coordination.'
   },
   {
