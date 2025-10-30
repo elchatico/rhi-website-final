@@ -6,7 +6,7 @@ const teamMembers = [
     name: 'Grace Owuor',
     role: 'Founder & Executive Director',
     imageUrl: '/images/1.png',
-    bio: 'Grace founded RHI with a passion for community safety and empowerment. His vision drives our mission forward every day.'
+    bio: 'Grace provides overall leadership and vision for RHI. Builds partnerships, represents the organization publicly, and ensures mission alignment.'
   },
   {
     name: 'George Roberts',
@@ -16,40 +16,58 @@ const teamMembers = [
   },
   {
     name: 'Lyndah Nyangasi',
-    role: 'Operations Manager',
+    role: 'Executive Assistant',
     imageUrl: '/images/3.jpeg',
-    bio: 'Keeps our programs running smoothly and efficiently, handling logistics and coordination.'
+    bio: 'Supports both leaders with communication, documentation, and scheduling. Her organizational skills keep us on track.'
   },
   {
-    name: '[Replace Name]',
+    name: 'Not Available',
     role: 'Lead Trainer',
-    imageUrl: 'https://picsum.photos/seed/lead-trainer-portrait/400/400',
+    imageUrl: '/images/t3.jpg',
     bio: 'An experienced paramedic and educator, bringing real-world expertise to every training session.'
   },
     {
-    name: '[Replace Name]',
+    name: 'Not Available',
     role: 'Marketing & Outreach',
-    imageUrl: 'https://picsum.photos/seed/marketing-portrait/400/400',
+    imageUrl: '/images/t1.jpg',
     bio: 'Spreads the word about RHI\'s mission and connects us with communities in need.'
   },    
   {
-    name: '[Replace Name]',
+    name: 'Valarie Akinyi',
     role: 'Volunteer Coordinator',
-    imageUrl: 'https://picsum.photos/seed/volunteer-coordinator-portrait/400/400',
+    imageUrl: '/images/c2.jpg',
     bio: 'Recruits and manages our dedicated team of volunteers who make our work possible.'
   },
   {
-    name: '[Replace Name]',
-    role: 'Curriculum Developer',
-    imageUrl: 'https://picsum.photos/seed/curriculum-developer-portrait/400/400',
-    bio: 'Designs engaging and effective training materials tailored to our diverse audiences.'
+    name: 'Abigael Achungo',
+    role: 'School Liaison Coordinator',
+    imageUrl: '/images/abby.jpeg',
+    bio:  'Acts as the contact person between RHI and schools. Plans visits, organizes training schedules, and manages communication with teachers.'
   },
   {
-    name: '[Replace Name]',
-    role: 'Finance & Fundraising',
-    imageUrl: 'https://picsum.photos/seed/finance-fundraising-portrait/400/400',
-    bio: 'Manages our budget and fundraising efforts to ensure we can continue our vital work.'
-  },        
+    name: 'Angela Muhonja',
+    role: 'Finance & Operations Officer',
+    imageUrl: '/images/c3.jpg',
+    bio: 'Manages RHI’s finances, budgets, and expenditure. Handles logistics, material purchases, and event organization.'
+  },
+  {
+    name: 'Not Available',
+    role: 'Monitoring, Evaluation & Reporting Officer',
+    imageUrl: '/images/c1.jpg',
+    bio: 'Tracks project impact, collects data, and prepares progress reports for partners and stakeholders.'
+  },
+  {
+    name: 'Not Available',
+    role: 'Trainer 1',
+    imageUrl: '/images/c2.jpg',
+    bio: 'Supports lead trainers during sessions, assists with setup, and helps participants with any questions.'
+  },
+  {
+    name: 'Not Available',
+    role: 'Partnerships & Outreach Manager',
+    imageUrl: '/images/t2.png',
+    bio: 'Builds relationships with schools, clinics, sponsors, and media.'
+  }
 ];
 
 const PageHeader: React.FC<{ title: string; subtitle: string }> = ({ title, subtitle }) => (

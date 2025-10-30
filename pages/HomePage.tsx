@@ -27,7 +27,7 @@ const HomePage: React.FC = () => {
       {/* Hero Section */}
       <section className="relative h-[60vh] md:h-[80vh] flex items-center justify-center text-center text-white bg-rh-blue">
          <img 
-            src="public/images/mathurin-napoly-matnapo-mbyWF9rYahI-unsplash.jpg" 
+            src="/images/mathurin-napoly-matnapo-mbyWF9rYahI-unsplash.jpg" 
             alt="First aid training session with a group of people." 
             className="absolute inset-0 w-full h-full object-cover opacity-30"
           />
@@ -60,7 +60,7 @@ const HomePage: React.FC = () => {
                  <HighlightCard
                     title="RH Kids"
                     description="Young Hands, Ready Hearts. [Replace later with real stats]."
-                    imageUrl="public/images/jay-heike-7tzZaCE0GKc-unsplash.jpg"
+                    imageUrl="/images/kids.png"
                     linkTo="/kids"
                 />
             </AnimatedSection>
@@ -68,7 +68,7 @@ const HomePage: React.FC = () => {
                  <HighlightCard
                     title="RH Pro"
                     description="Safe Teams, Strong Businesses. [Replace later with partner names]."
-                    imageUrl="https://picsum.photos/seed/rh-pro-workplace-safety/400/300"
+                    imageUrl="/images/pro.png"
                     linkTo="/pro"
                 />
             </AnimatedSection>
@@ -76,7 +76,7 @@ const HomePage: React.FC = () => {
                  <HighlightCard
                     title="CSR Sponsorship"
                     description="Train a Worker. Empower a Child. Save a Community."
-                    imageUrl="https://picsum.photos/seed/csr-community-support/400/300"
+                    imageUrl="/images/csr.png"
                     linkTo="/csr"
                 />
             </AnimatedSection>

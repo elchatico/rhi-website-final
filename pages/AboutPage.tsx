@@ -80,13 +80,13 @@ const AboutPage: React.FC = () => {
             </p>
           </div>
           <div className="h-64 rounded-lg overflow-hidden shadow-lg">
-             <img src="https://picsum.photos/600/400?random=5" alt="Team working together" className="w-full h-full object-cover"/>
+             <img src="public/images/mission.png" alt="Team working together" className="w-full h-full object-cover"/>
           </div>
         </AnimatedSection>
 
         <AnimatedSection className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1 h-64 rounded-lg overflow-hidden shadow-lg">
-             <img src="https://picsum.photos/600/400?random=6" alt="Vision for the future" className="w-full h-full object-cover"/>
+             <img src="public/images/vision.jpg" alt="Vision for the future" className="w-full h-full object-cover"/>
           </div>
           <div className="order-1 md:order-2">
             <h2 className="text-3xl font-bold text-rh-blue">Our Vision</h2>
