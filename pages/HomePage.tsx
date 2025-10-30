@@ -27,7 +27,7 @@ const HomePage: React.FC = () => {
       {/* Hero Section */}
       <section className="relative h-[60vh] md:h-[80vh] flex items-center justify-center text-center text-white bg-rh-blue">
          <img 
-            src="https://picsum.photos/seed/first-aid-group-training/1600/900" 
+            src="public/images/mathurin-napoly-matnapo-mbyWF9rYahI-unsplash.jpg" 
             alt="First aid training session with a group of people." 
             className="absolute inset-0 w-full h-full object-cover opacity-30"
           />
@@ -60,7 +60,7 @@ const HomePage: React.FC = () => {
                  <HighlightCard
                     title="RH Kids"
                     description="Young Hands, Ready Hearts. [Replace later with real stats]."
-                    imageUrl="https://picsum.photos/seed/rh-kids-first-aid/400/300"
+                    imageUrl="public/images/jay-heike-7tzZaCE0GKc-unsplash.jpg"
                     linkTo="/kids"
                 />
             </AnimatedSection>
