@@ -11,8 +11,8 @@ const teamMembers = [
   {
     name: 'George Roberts',
     role: 'Co-Founder & Program Coordinator',
-    imageUrl: '/images/21.jpeg',
-    bio: 'Manages our school and corporate partnerships, ensuring a smooth and impactful experience for all.'
+    imageUrl: '/images/g.jpg',
+    bio: 'Handles day-to-day execution of programs, manages staff, and ensures activities align with RHI’s mission.'
   },
   {
     name: 'Lyndah Nyangasi',
@@ -47,13 +47,13 @@ const teamMembers = [
   {
     name: 'Angela Muhonja',
     role: 'Finance & Operations Officer',
-    imageUrl: '/images/c3.jpg',
+    imageUrl: '/images/an.jpeg',
     bio: 'Manages RHI’s finances, budgets, and expenditure. Handles logistics, material purchases, and event organization.'
   },
   {
-    name: 'Not Available',
+    name: 'Mitshelle Ayuma',
     role: 'Monitoring, Evaluation & Reporting Officer',
-    imageUrl: '/images/c1.jpg',
+    imageUrl: '/images/mi.jpeg',
     bio: 'Tracks project impact, collects data, and prepares progress reports for partners and stakeholders.'
   },
   {
@@ -65,8 +65,14 @@ const teamMembers = [
   {
     name: 'Not Available',
     role: 'Partnerships & Outreach Manager',
-    imageUrl: '/images/t2.png',
+    imageUrl: '/images/founder1.jpg',
     bio: 'Builds relationships with schools, clinics, sponsors, and media.'
+  },
+  {
+    name: 'Eugene Elvis',
+    role: 'Logistics & Operations Officer', 
+    imageUrl: '/images/eugo.jpeg',
+    bio: 'Coordinates transport, training materials, and event setups.'
   }
 ];
 
