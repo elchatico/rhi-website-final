@@ -20,24 +20,18 @@ const teamMembers = [
     imageUrl: '/images/3.jpeg',
     bio: 'Supports both leaders with communication, documentation, and scheduling. Her organizational skills keep us on track.'
   },
-  {
-    name: 'Not Available',
+   {
+    name: 'Mary Wambui',
     role: 'Lead Trainer',
-    imageUrl: '/images/t3.jpg',
+    imageUrl: '/images/mary.jpeg',
     bio: 'An experienced paramedic and educator, bringing real-world expertise to every training session.'
-  },
-    {
-    name: 'Not Available',
-    role: 'Marketing & Outreach',
-    imageUrl: '/images/t1.jpg',
-    bio: 'Spreads the word about RHI\'s mission and connects us with communities in need.'
-  },    
+  },  
   {
-    name: 'Valarie Akinyi',
-    role: 'Volunteer Coordinator',
-    imageUrl: '/images/c2.jpg',
-    bio: 'Recruits and manages our dedicated team of volunteers who make our work possible.'
-  },
+    name: 'Lydia Waihuini Maina',
+    role: 'Lead Trainer',
+    imageUrl: '/images/lydia2.jpg',
+    bio: 'An experienced paramedic and educator, bringing real-world expertise to every training session.'
+  }, 
   {
     name: 'Abigael Achungo',
     role: 'School Liaison Coordinator',
@@ -57,23 +51,29 @@ const teamMembers = [
     bio: 'Tracks project impact, collects data, and prepares progress reports for partners and stakeholders.'
   },
   {
-    name: 'Not Available',
-    role: 'Trainer 1',
-    imageUrl: '/images/c2.jpg',
-    bio: 'Supports lead trainers during sessions, assists with setup, and helps participants with any questions.'
+    name: 'Eugene Elvis',
+    role: 'Logistics & Operations Officer', 
+    imageUrl: '/images/eugo.jpeg',
+    bio: 'Coordinates transport, training materials, and event setups.'
   },
+  {
+    name: 'Valary Akinyi',
+    role: 'Volunteer Coordinator',
+    imageUrl: '/images/c2.jpeg',
+    bio: 'Recruits and manages our dedicated team of volunteers who make our work possible.'
+  },
+   {
+    name: 'Not Available',
+    role: 'Marketing & Outreach',
+    imageUrl: '/images/t1.jpg',
+    bio: 'Spreads the word about RHI\'s mission and connects us with communities in need.'
+  }, 
   {
     name: 'Not Available',
     role: 'Partnerships & Outreach Manager',
     imageUrl: '/images/founder1.jpg',
     bio: 'Builds relationships with schools, clinics, sponsors, and media.'
   },
-  {
-    name: 'Eugene Elvis',
-    role: 'Logistics & Operations Officer', 
-    imageUrl: '/images/eugo.jpeg',
-    bio: 'Coordinates transport, training materials, and event setups.'
-  }
 ];
 
 const PageHeader: React.FC<{ title: string; subtitle: string }> = ({ title, subtitle }) => (

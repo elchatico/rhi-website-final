@@ -39,7 +39,7 @@ const KidsPage: React.FC = () => {
           </AnimatedSection>
           <AnimatedSection className="w-full h-full">
             <div className="relative h-96 lg:h-full rounded-lg overflow-hidden shadow-lg">
-                <img src="public/images/kids11.png" alt="Kids learning first aid" className="w-full h-full object-cover" />
+                <img src="/images/kids11.png" alt="Kids learning first aid" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-rh-red opacity-5"></div>
             </div>
           </AnimatedSection>
