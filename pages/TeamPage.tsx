@@ -5,7 +5,7 @@ const teamMembers = [
   {
     name: 'Grace Owuor',
     role: 'Founder & Executive Director',
-    imageUrl: '/images/1.png',
+    imageUrl: '/images/me.png',
     bio: 'Grace provides overall leadership and vision for RHI. Builds partnerships, represents the organization publicly, and ensures mission alignment.'
   },
   {
