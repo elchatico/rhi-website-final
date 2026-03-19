@@ -63,9 +63,8 @@ const PageHeader: React.FC<{ title: string; subtitle: string }> = ({ title, subt
 );
 
 const AboutPage: React.FC = () => {
-  const { count: schoolsCount, ref: schoolsRef } = useAnimatedCounter(50); // Replace with real data
-  const { count: studentsCount, ref: studentsRef } = useAnimatedCounter(2500); // Replace with real data
-  const { count: companiesCount, ref: companiesRef } = useAnimatedCounter(20); // Replace with real data
+  const { count: schoolsCount, ref: schoolsRef } = useAnimatedCounter(2); // Replace with real data
+  const { count: studentsCount, ref: studentsRef } = useAnimatedCounter(60); // Replace with real data
 
   return (
     <div className="bg-white">
@@ -114,10 +113,6 @@ const AboutPage: React.FC = () => {
                 <div className="border-r border-gray-300 last:border-r-0">
                     <span ref={studentsRef} className="text-5xl font-extrabold text-rh-red">{studentsCount}+</span>
                     <p className="mt-2 text-lg font-semibold text-rh-blue">Students Trained</p>
-                </div>
-                <div>
-                    <span ref={companiesRef} className="text-5xl font-extrabold text-rh-red">{companiesCount}+</span>
-                    <p className="mt-2 text-lg font-semibold text-rh-blue">Companies Trained</p>
                 </div>
             </div>
         </AnimatedSection>

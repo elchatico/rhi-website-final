@@ -15,15 +15,19 @@ const navLinks = [
   { name: 'Contact', path: '/contact' },
 ];
 
+// ✅ Updated Logo Component (using public folder image)
 const Logo: React.FC = () => (
-    <Link to="/" className="flex items-center space-x-2">
-        <div className="w-10 h-10 bg-rh-red rounded-full flex items-center justify-center">
-            <span className="text-white font-bold text-xl">RHI</span>
-        </div>
-        <span className="font-extrabold text-xl text-rh-blue tracking-tight">Ready Hands</span>
-    </Link>
+  <Link to="/" className="flex items-center">
+    <img
+      src="/images/logo.png"
+      alt="Ready Hands Logo"
+      className="w-20 h-16 object-contain transition-transform duration-300 hover:scale-105"
+    />
+    <span className="font-extrabold text-xl text-rh-blue tracking-tight">
+            Ready Hands
+        </span>
+  </Link>
 );
-
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,27 +39,23 @@ const Navbar: React.FC = () => {
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
-      
+
       setIsScrolled(currentScrollY > 10);
 
-      // Don't hide if mobile menu is open
       if (isOpen) {
         setShowNavbar(true);
       } else {
-        // Hide on scroll down, show on scroll up
         if (currentScrollY > lastScrollY.current && currentScrollY > 100) {
           setShowNavbar(false);
         } else {
           setShowNavbar(true);
         }
       }
-      
+
       lastScrollY.current = currentScrollY;
     };
 
     window.addEventListener('scroll', handleScroll, { passive: true });
-    
-    // Set initial scroll position on mount
     lastScrollY.current = window.scrollY;
 
     return () => window.removeEventListener('scroll', handleScroll);
@@ -67,6 +67,7 @@ const Navbar: React.FC = () => {
 
   const NavLink: React.FC<{ to: string; children: React.ReactNode }> = ({ to, children }) => {
     const isActive = location.pathname === to;
+
     return (
       <Link
         to={to}
@@ -78,22 +79,36 @@ const Navbar: React.FC = () => {
       </Link>
     );
   };
-  
 
   return (
-    <nav className={`fixed w-full top-0 z-50 transition-all duration-300 ${isScrolled || isOpen ? 'bg-white shadow-md' : 'bg-transparent'} ${showNavbar ? 'translate-y-0' : '-translate-y-full'}`}>
+    <nav
+      className={`fixed w-full top-0 z-50 transition-all duration-300 ${
+        isScrolled || isOpen
+          ? 'bg-white/90 backdrop-blur-md shadow-md'
+          : 'bg-transparent'
+      } ${showNavbar ? 'translate-y-0' : '-translate-y-full'}`}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+        {/* 🔽 Reduced height for cleaner look */}
+        <div className="flex items-center justify-between h-16">
+          
+          {/* Logo */}
           <div className="flex-shrink-0">
             <Logo />
           </div>
+
+          {/* Desktop Menu */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
               {navLinks.map((link) => (
-                <NavLink key={link.name} to={link.path}>{link.name}</NavLink>
+                <NavLink key={link.name} to={link.path}>
+                  {link.name}
+                </NavLink>
               ))}
             </div>
           </div>
+
+          {/* Mobile Button */}
           <div className="-mr-2 flex md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
@@ -102,19 +117,30 @@ const Navbar: React.FC = () => {
               aria-expanded={isOpen}
             >
               <span className="sr-only">Open main menu</span>
-              {isOpen ? 
-                <XIcon className="h-6 w-6 transform transition-transform duration-300 ease-in-out group-hover:rotate-12 group-hover:scale-110" aria-hidden="true" /> : 
-                <MenuIcon className="h-6 w-6 transform transition-transform duration-300 ease-in-out group-hover:rotate-12 group-hover:scale-110" aria-hidden="true" />
-              }
+              {isOpen ? (
+                <XIcon
+                  className="h-6 w-6 transform transition-transform duration-300 group-hover:rotate-12 group-hover:scale-110"
+                  aria-hidden="true"
+                />
+              ) : (
+                <MenuIcon
+                  className="h-6 w-6 transform transition-transform duration-300 group-hover:rotate-12 group-hover:scale-110"
+                  aria-hidden="true"
+                />
+              )}
             </button>
           </div>
         </div>
       </div>
+
+      {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden bg-white border-t border-gray-200" id="mobile-menu">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {navLinks.map((link) => (
-               <NavLink key={link.name} to={link.path}>{link.name}</NavLink>
+              <NavLink key={link.name} to={link.path}>
+                {link.name}
+              </NavLink>
             ))}
           </div>
         </div>

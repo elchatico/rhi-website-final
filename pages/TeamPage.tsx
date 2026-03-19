@@ -19,12 +19,6 @@ const teamMembers = [
     role: 'Executive Assistant',
     imageUrl: '/images/3.jpeg',
     bio: 'Supports both leaders with communication, documentation, and scheduling. Her organizational skills keep us on track.'
-  },
-   {
-    name: 'Mary Wambui',
-    role: 'Lead Trainer',
-    imageUrl: '/images/mary.jpeg',
-    bio: 'An experienced paramedic and educator, bringing real-world expertise to every training session.'
   },  
   {
     name: 'Lydia Waihuini Maina',
@@ -33,9 +27,9 @@ const teamMembers = [
     bio: 'An experienced paramedic and educator, bringing real-world expertise to every training session.'
   }, 
   {
-    name: 'Abigael Achungo',
+    name: 'Valary Akinyi',
     role: 'School Liaison Coordinator',
-    imageUrl: '/images/abby.jpeg',
+    imageUrl: '/images/c2.jpeg',
     bio:  'Acts as the contact person between RHI and schools. Plans visits, organizes training schedules, and manages communication with teachers.'
   },
   {
@@ -43,36 +37,6 @@ const teamMembers = [
     role: 'Finance & Operations Officer',
     imageUrl: '/images/an.jpeg',
     bio: 'Manages RHI’s finances, budgets, and expenditure. Handles logistics, material purchases, and event organization.'
-  },
-  {
-    name: 'Mitshelle Ayuma',
-    role: 'Monitoring, Evaluation & Reporting Officer',
-    imageUrl: '/images/mi.jpeg',
-    bio: 'Tracks project impact, collects data, and prepares progress reports for partners and stakeholders.'
-  },
-  {
-    name: 'Eugene Elvis',
-    role: 'Logistics & Operations Officer', 
-    imageUrl: '/images/eugo.jpeg',
-    bio: 'Coordinates transport, training materials, and event setups.'
-  },
-  {
-    name: 'Valary Akinyi',
-    role: 'Volunteer Coordinator',
-    imageUrl: '/images/c2.jpeg',
-    bio: 'Recruits and manages our dedicated team of volunteers who make our work possible.'
-  },
-   {
-    name: 'Not Available',
-    role: 'Marketing & Outreach',
-    imageUrl: '/images/t1.jpg',
-    bio: 'Spreads the word about RHI\'s mission and connects us with communities in need.'
-  }, 
-  {
-    name: 'Not Available',
-    role: 'Partnerships & Outreach Manager',
-    imageUrl: '/images/founder1.jpg',
-    bio: 'Builds relationships with schools, clinics, sponsors, and media.'
   },
 ];
 

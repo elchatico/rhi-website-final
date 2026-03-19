@@ -5,20 +5,15 @@ import { QuoteIcon } from '../components/icons';
 
 const testimonials = [
   {
-    quote: "The training was incredibly practical and engaging. Our staff feels so much more prepared to handle emergencies now. Highly recommended!",
-    name: "Amina Yusuf",
-    title: "HR Manager, Innovate Solutions",
+    quote: "Good experience with RHI. They are doing important work in the community and the trainers know their stuff. Definitely a steady and helpful resource for first aid education.",
+    name: "Mr. Adam",
+    title: "Teacher and Club Patron , Guardian Shining Stars Academy",
   },
   {
-    quote: "My daughter came home from the RH Kids program so excited. She proudly showed us how to do CPR on her teddy bear. It's a fantastic initiative.",
-    name: "David Chen",
-    title: "Parent",
-  },
-  {
-    quote: "As a small business owner, the RH Pro training was invaluable. The session was tailored to our workshop environment and gave us great peace of mind.",
-    name: "Fatima Al-Jamil",
-    title: "Owner, Artisan Carpentry",
-  },
+    quote: "It's a fantastic initiative and the students love it.",
+    name: "Mr. Joseph",
+    title: "Deputy Head Teacher, Tumaini Academy",
+  }
 ];
 
 const HomePage: React.FC = () => {
