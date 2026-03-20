@@ -4,9 +4,9 @@ import { XIcon } from '../components/icons';
 
 const images = [
   { src: '/images/image2.jpg', caption: 'Students engaged in an interactive first aid learning session.' },
-  { src: '/images/image3.jpg', caption: 'An employee learning to use an automated external defibrillator (AED).' },
-  { src: '/images/image4.jpg', caption: 'Students practicing bandaging basics on each other.' },
-  { src: '/images/image1.jpg', caption: 'A group photo of a successful RH Pro workplace training session.' },
+  { src: '/images/image3.jpg', caption: 'A training session in progress at Tumaini Academy.' },
+  { src: '/images/image4.jpg', caption: 'Students engaged in an interactive first aid learning session.' },
+  { src: '/images/image1.jpg', caption: 'Students practicing bandaging basics on each other.' },
 ];
 
 const PageHeader: React.FC<{ title: string; subtitle: string }> = ({ title, subtitle }) => (
